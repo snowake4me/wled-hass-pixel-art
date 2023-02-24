@@ -25,10 +25,10 @@ WLED_32x8_IP=10.10.10.120
 
 I've added these two environment variables to my .zshrc so they're always set.
 
-<snip>
+```shell
 export WLED_16x16_IP=matrix2.local
 export WLED_32x8_IP=scroll.local
-</snip>
+```
 
 Then - after a quick chmod +x to grant execute permissions - you can just run any given script and - VOILA!
 
