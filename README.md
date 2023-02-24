@@ -11,19 +11,23 @@ All I did was copy/pasta the various codes for both libraries, and wrap each in 
 ## Usage
 Just set one of both environment variables appropriate to your device:
 
-WLED_16x16_IP=<WLED IP Address> or hostname for 16x16 matrix.  E.G.
+WLED_16x16_IP=<WLED IP Address> or hostname for 16x16 matrix.  
+
+E.G.
 WLED_16x16_IP=matrix.local or
 WLED_16x16_IP=10.10.10.100
 
-WLED_32x8_IP=<WLED IP Address> or hostname for 32x8 matrix.  E.G.
+WLED_32x8_IP=<WLED IP Address> or hostname for 32x8 matrix.
+
+E.G.
 WLED_32x8_IP=scroll.local or
 WLED_32x8_IP=10.10.10.120
 
 I've added these two environment variables to my .zshrc so they're always set.
 
 <snip>
-export WLED_16x16_IP="matrix2.local"
-export WLED_32x8_IP="scroll.local"
+export WLED_16x16_IP=matrix2.local
+export WLED_32x8_IP=scroll.local
 </snip>
 
 Then - after a quick chmod +x to grant execute permissions - you can just run any given script and - VOILA!
@@ -33,9 +37,11 @@ Then - after a quick chmod +x to grant execute permissions - you can just run an
 And you're rockin' a Minecraft sword on your 16x16 Matrix!
 
 See @MakeItWorkTech's [YouTube channel](https://www.youtube.com/channel/UCGoreZKPBtCXCf54F3DF4ug), [Thingiverse designs](https://www.thingiverse.com/makeitworktech/designs), and [Discord Server](https://discord.com/invite/cb7jNh37p2) for more details!
+
 ## Contents
 
 The repo contains PixelArt in two different form factors:
+
 ### 16x16 PixelArt
 
 * among_us.sh
