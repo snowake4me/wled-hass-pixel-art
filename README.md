@@ -9,7 +9,7 @@ You'll find his YouTube video on the topic here: [Creating PixelArt with WLED](h
 All I did was copy/pasta the various codes for both libraries, and wrap each in a simple one-line script to invoke them.
 
 ## Usage
-Just set one of both environment variables appropriate to your device:
+Just set one or both environment variables appropriate to your device(s):
 
 WLED_16x16_IP=<WLED IP Address> or hostname for 16x16 matrix.  
 
